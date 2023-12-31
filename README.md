@@ -22,6 +22,9 @@ const Tween = () => {
 
 3. useEffectで初回startすると、動き続ける。デフォルト繰り返し？
 to()に設定するrotationは値設定しても意味ないみたい。
+
 移動させたいときは、new TWEEN.Tween()の引数に、ref.current.positionを設定して、
+
 回転させたいときは、new TWEEN.Tween()の引数に、ref.current.rotationを設定する。
+
 一度に移動させたいときは...？調査中。
